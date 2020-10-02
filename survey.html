@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+  <title>Cool survey</title>
+</head>
+<body>
+  <div class="column side">
+  <p> </p>
+  </div>
+  <div class="column middle">
+    <div style="text-align: center">
+      <img src="meme.jpg" width=300px>
+    </div>
+    <br>
+    <h1>Survey</h1>
+    <br>
+    <form>
+    <div>
+      What is your name?
+      <br>
+      <input type="text" placeholder="Enter full name" name="full_name"> 
+    </div>
+    <br>
+    <div>
+      Are you a male or a female?
+    </div>
+    <br>
+    <div>  
+      <input type="radio" value="male" name="sex">Male
+      <input type="radio" value="female" name="sex">Female
+    </div>
+    <br>
+    <div>
+      What is your email?
+      <br>
+      <input type="email" placeholder="Enter your email" name="email"> 
+    </div>
+    <br>
+    <div>
+      What is your age range?
+        <select id="age_range" name="age_range">  
+        <option value="1-10">1-10</option>
+        <option value="11-20">11-20</option>
+        <option value="21-30">21-30</option>
+        <option value="31-40">31-40</option>
+        <option value="41-50">41-50</option>
+        <option value="51-60">51-60</option>
+        <option value="61-70">61-70</option>
+        <option value="71-80">71-80</option>
+        <option value="81-90">81-90</option>
+        <option value="91-100">91-100</option>
+        </select>
+    </div>
+    <br>
+    <div>
+      <p>What is the last tv show you watched?</p>
+      <input type="text" placeholder="Enter your favorite tv show" name="show"> 
+    </div>
+    <br>
+    <div>
+      Is it better than "The office"?
+        <select id="abetter_or_not" name="better_or_not">  
+        <option value="Yes">Yes</option>
+        <option value="Of course not">Of course not</option>
+        <option value="I haven't watched The Office">I haven't watched The Office</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Info">
+    </div>
+    </form>
+  </div>
+  <div class="column side">
+  <p> </p>
+  </div>
+</body>
+</html>
+
