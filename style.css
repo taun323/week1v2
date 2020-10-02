@@ -1,0 +1,52 @@
+h1 {
+  color: rgb(209, 230, 22);
+  text-align: center;
+}
+body {
+  color: white;
+  background-color: rgb(11, 75, 112);
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(3, 174, 241);
+  border-radius: 4px;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(3, 174, 241);
+  border-radius: 4px;
+}
+select {
+  color: black;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(3, 174, 241);
+  border-radius: 4px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 14px;
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+}
+.column {
+  float: left;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
